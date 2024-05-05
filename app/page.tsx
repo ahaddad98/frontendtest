@@ -5,6 +5,8 @@ import BlockVision from "@/components/BlockVision";
 import Cards from "@/components/Cards";
 import Header from "@/components/Header";
 import HorizontalCards from "@/components/HoriszontalCards";
+import React, { useState } from 'react';
+
 
 export default function Home() {
   const logoSrc = '/icons/logo.svg';

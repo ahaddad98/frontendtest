@@ -8,7 +8,7 @@ declare global {
 }
 
 const BlockGlobal = () => {
-  return <section className="relative h-screen">
+  return <section className="relative min-h-max h-screen">
     <VideoBackground src="/videos/main-background-video.mp4" />
     <div className="absolute bottom-[80px] left-5 xl:left-60 text-white">
       <h1 className="text-subtitle xl:text-title font-bold font-monument">

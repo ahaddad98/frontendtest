@@ -10,7 +10,7 @@ declare global {
 
 const BlockPassNft = () => {
     const ArrTexts = ['Pre-launch investment opportunities for upcoming AI projects', 'Free and early access to Creon built AI projects', 'Higher allocation limits on the Creon AI Launchpad', 'Revenue share distribution from Creon built AI projects'];
-    return <section className="relative h-screen flex flex-row flex-wrap items-center justify-center gap-9 p-6">
+    return <section className="relative min-h-max h-screen flex flex-row flex-wrap items-center justify-center gap-9 p-6">
         <div className="w-4/12 flex flex-col justify-around h-full">
             <h1 className="text-title font-bold font-monument text-white">
                 creon pass nft

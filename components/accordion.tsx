@@ -21,9 +21,9 @@ const Accordion: React.FC<Props> = ({ title, paragraph, Component }): ReactEleme
                     <div className='flex items-start justify-between w-full overflow-hidden mt-32 md:mt-0 mb-5 mx-auto cursor-pointer' onClick={toggleAccordion}>
                         <div className='flex items-start px-2 py-1 gap-6'>
                             <Component color={isOpen ?  "white" : "#13171D"}/>
-                            <div className='w-8/12 flex flex-col items-start'>
+                            <div className='w-8/12 flex flex-col items-start transition duration-300 ease-in-ou'>
                                 <h1 className="py-8 text-paragraphs hover:text-blue-500">{title}</h1>
-                                <div className={`mt-8 flex w-full transform transition duration-700 ease-in-out ${isOpen ? '' : 'hidden'}`}>
+                                <div className={`mt-8 flex w-full transition-all duration-300 ease  ${isOpen ? 'h-48' : 'h-0'}`}>
                                     {paragraph}
                                 </div>
                             </div>

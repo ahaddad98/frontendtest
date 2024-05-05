@@ -8,7 +8,7 @@ declare global {
 }
 
 const BlockProfiting = () => {
-    return <section className="relative h-screen px-5 md:px-10 xl:px-60 py-10">
+    return <section className="relative min-h-max h-screen px-5 md:px-10 xl:px-60 py-10">
         <h1 className="text-title font-bold font-monument text-white">
             Profiting Through
         </h1>

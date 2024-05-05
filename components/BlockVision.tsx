@@ -33,7 +33,7 @@ const BlockVision = () => {
             paragraph: 'At Creon, we handpick cutting-edge AI projects and offer our community and token holders early access and investment opportunities. Our community actively contributes to the growth and profitability of these projects, creating a dynamic ecosystem of innovation and shared success.'
         },
     ]
-    return <section className="relative h-screen px-5 md:px-10 xl:px-60 py-10">
+    return <section className="relative min-h-max h-screen px-5 md:px-10 xl:px-60 py-10">
         <div className="flex flex-row text-white justify-between gap-6">
             <div className="w-7/12">
                 <h1 className="text-subtitle font-monument">
