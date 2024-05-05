@@ -14,7 +14,7 @@ const BlockGlobal = () => {
       <h1 className="text-subtitle xl:text-title font-bold font-monument">
         The world's first<br /> platform for Tokenizing<br /> AI blockchain projects
       </h1>
-      <p className="text-gradient border-gradient w-max">
+      <p className="text-gradient text-paragraphs border-gradient w-max">
         Hold the Creon Pass NFT and earn passive income from AI Tools
       </p>
     </div>
