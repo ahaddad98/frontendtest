@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Monument';
+    font-style: normal;
+    font-display: swap;
+    src: url('/fonts/MonumentExtended-Regular.woff2') format('truetype');
+}
+
+@font-face {
+    font-family: 'Satochi';
+    font-style: bold;
+    font-display: swap;
+    src: url('/fonts/Satoshi-Bold.woff2') format('truetype');
+}
+
+@font-face {
+    font-family: 'Satochi';
+    font-style: medium;
+    font-display: swap;
+    src: url('/fonts/Satoshi-Medium.woff2') format('truetype');
+}
+
+@font-face {
+    font-family: 'Satochi';
+    font-style: regular;
+    font-display: swap;
+    src: url('/fonts/Satoshi-Regular.woff2') format('truetype');
+}

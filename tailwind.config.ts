@@ -8,11 +8,31 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      backgroundColor: {
+        cardbg: "#13171D"
       },
+      backgroundImage: theme => ({
+        'image1': "url('/4.png')",
+      }),
+      colors: {
+        purple: '#AB23FF'
+      },
+      fontSize: {
+        minsm: '10px',
+        title: '68px',
+        subtitle: '38px',
+        paragraphs: '22px',
+        paragsm: '18px'
+      },
+      fontFamily: {
+        monument: ['Monument', 'sans-serif'],
+      },
+      borderColor: {
+        grayborder: '#13171D'
+      },
+      divideColor:{
+        graybord: '#13171D'
+      }
     },
   },
   plugins: [],
